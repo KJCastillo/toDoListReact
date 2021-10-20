@@ -10,7 +10,7 @@ class App extends Component {
         <div>
           <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">
-              Cocktail API
+              Navbar
             </a>
             <button
               className="navbar-toggler"
@@ -86,11 +86,13 @@ class App extends Component {
           </nav>
         </div>
         <div className="App-header">
-          <h2>Header location</h2>
+          <img src={logo} className="App-logo" alt="logo" />
+          <h2>React Boilerplate</h2>
         </div>
-        <p>
-          Body location
+        <p className="App-intro">
+          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <img src={ycth} className="ycth" alt="ycth img" />
       </div>
     );
   }
