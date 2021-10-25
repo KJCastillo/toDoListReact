@@ -1,21 +1,18 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
-import ycth from "./img/ycth.png";
-import "./App.css";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 
 export const App = () => {
   
     return (
      
-      <div className="App">
+      <div className="App ">
       <Navbar />
       <Header />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <img src={ycth} className="ycth" alt="ycth img" />
+      <Body />
+      <Footer />
       </div>
     );
 };
