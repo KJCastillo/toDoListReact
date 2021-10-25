@@ -3,8 +3,8 @@ import logo from "./logo.svg";
 import ycth from "./img/ycth.png";
 import "./App.css";
 
-class App extends Component {
-  render() {
+export const App = () => {
+  
     return (
       <div className="App">
         <div>
@@ -95,7 +95,6 @@ class App extends Component {
         <img src={ycth} className="ycth" alt="ycth img" />
       </div>
     );
-  }
-}
+};
 
 export default App;
