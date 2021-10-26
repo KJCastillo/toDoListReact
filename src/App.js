@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import ToDo from "./components/ToDo";
+import List from "./components/List";
 import Footer from "./components/Footer";
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
       <Body inputText={inputText} setInputText={setInputText} todos={todos} setTodos={setTodos}/>
       {/* passing useState to component to be used */}
       <ToDo />
+      <List />
       <Footer />
     </div>
   );

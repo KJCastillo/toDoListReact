@@ -6,7 +6,7 @@ const Body = ({ setInputText, inputText, todos, setTodos }) => {
   //called props "todos" and "setTods" above from App.js component
   const inputTextHandler = (e) => {
     console.log(e.target.value);
-    setInputText(e.taget.value);
+    setInputText(e.target.value);
   };
 
   const submitTodoHandler = (e) => {
