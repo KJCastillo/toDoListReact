@@ -15,7 +15,8 @@ export const App = () => {
     <div className="App ">
       <Navbar />
       <Header />
-      <Body setInputText={setInputText} />
+      <Body inputText={inputText} setInputText={setInputText} todos={todos} setTodos={setTodos}/>
+      {/* passing useState to component to be used */}
       <ToDo />
       <Footer />
     </div>
