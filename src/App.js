@@ -8,6 +8,9 @@ import Footer from "./components/Footer";
 export const App = () => {
   const [inputText, setInputText] = useState("");
   // useState made here in order to use in all components, place in tags below and use props in corresponding components
+  // quotes used because we are expecting text as input
+  const [todos, setTodos] = useState([]);
+  // array used because we are expecting an array of objects, in this case a list of to do's
   return (
     <div className="App ">
       <Navbar />
