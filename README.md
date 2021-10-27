@@ -25,3 +25,4 @@ For Windows, Mac, Linux or Gitpod, start server with live reload after python in
 ```
 $ python3 -m http.server
 ```
+![To Do List React Demo](demo/demo.gif)
