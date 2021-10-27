@@ -25,4 +25,3 @@ For Windows, Mac, Linux or Gitpod, start server with live reload after python in
 ```
 $ python3 -m http.server
 ```
-![image](https://user-images.githubusercontent.com/51268894/139127687-ad3c0fe0-ffb5-4f91-841f-4f3d236f976d.png)
