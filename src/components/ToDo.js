@@ -6,7 +6,7 @@ const ToDo = ({ todos, setTodos }) => {
   //called props "todos" and "setTodos" above from App.js to use in List.js
   return (
     <div className="toDoContainer">
-      <ul className="toDoList">
+      <ul className="toDoList container-fluid col-lg-6 offset-lg-3 ">
         {todos.map((todo) => (
           <List
             setTodos={setTodos}

@@ -21,8 +21,8 @@ const List = ({text, todo, todos, setTodos}) => {
     }
   return (
     <div className="list container-fluid">
-      <div className="row">
-        <li className={`col-11 listItem list-unstyled list-group-item-info d-inline-block pt-2 m-1 ${todo.completed ? "completed" : ""}`}>
+      <div className="row mx-auto justify-content-center">
+        <li className={`col listItem list-unstyled list-group-item-info d-inline-block pt-2 m-1 ${todo.completed ? "completed" : ""}`}>
           <h4>{text}</h4>
         </li>
         <button type="submit" className="complete-btn btn-primary m-2 mb-2" onClick={completeHandler}>
