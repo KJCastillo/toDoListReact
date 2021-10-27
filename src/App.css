@@ -50,3 +50,9 @@
   width: 100%;
   height: 40px; /* Height of the footer */
 }
+
+/* mouse over link */
+.nav-link:hover, .nav-link:active {
+  color: cyan !important;
+  opacity: 0.5 !important;
+}
