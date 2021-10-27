@@ -16,6 +16,7 @@ const Body = ({ setInputText, inputText, todos, setTodos }) => {
       ...todos,
       { text: inputText, completed: false, id: Math.random() * 1000 },
       // spread syntax used to pass if anyting is already in the list
+      // id given to later be able to delete
     ]);
     setInputText("");
     // setInputText('') resets state after submit
